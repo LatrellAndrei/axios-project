@@ -1,0 +1,67 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+.app-container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.app-container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.app-header {
+  text-align: center;
+  color: #333;
+  margin-bottom: 50px;
+}
+
+.post {
+  background: #f6f6f6;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.post-title {
+  font-size: 20px;
+  color: #333;
+}
+
+.post-content {
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+}
+
+.button-update {
+  background: #007bff;
+  margin-right: 10px;
+}
+
+.button-delete {
+  background: #dc3545;
+}
+
+.button-create {
+  background: #28a745;
+  display: block;
+  margin: 10px auto;
+}
